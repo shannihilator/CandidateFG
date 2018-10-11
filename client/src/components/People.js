@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from './Button';
 
 export default class People extends Component {
     constructor(){
@@ -8,10 +9,13 @@ export default class People extends Component {
         }
     }
     render() {
-        return(
-            <div>
-                list people here
-            </div>
-        )
+        let peopleList = this.state.peopleList.map((response, index) => {
+      return <div key={index}>
+        <h2>{response.display_name}</h2>
+        <p>{response.email_address}</p>
+        <p>{response.title}</p>
+      </div>
+        
+         });
     }
 }
