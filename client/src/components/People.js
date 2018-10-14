@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+//created a component here to reach to the controller and fetch the data 
+//from that API call and render it in this component
 export default class People extends Component {
     constructor(props) {
         super(props);
@@ -21,6 +23,9 @@ export default class People extends Component {
               <p>{data.email_address}</p>
               <p>{data.title}</p>
              </div>
+             //add button component here
+             //in button component, add a map method I can compare each set of data or words 
+             //and see if they match, if so, add to the count
         
         );
 

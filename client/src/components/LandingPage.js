@@ -27,3 +27,4 @@ export const LandingPage = () => (
     </FlexBox>
   </Page>
 );
+//attached my people component to the landing page by importing it and adding the JSX tag

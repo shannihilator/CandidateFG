@@ -11,7 +11,8 @@ require 'httparty'
  puts HTTParty.get(url, headers: api_auth_header).body
 
 
-
+#api call to salesloft api with bearer token, 
+#added 'puts' method to test the call and make sure that I can reach the data
  
  
 
