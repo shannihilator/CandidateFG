@@ -22,6 +22,7 @@ export const LandingPage = () => (
   <Page>
     <ConnectedNavBar />
     <FlexBox>
+      <Intro />
       <People />
     </FlexBox>
   </Page>
